@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
             
         }
 
@@ -32,6 +33,17 @@
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        
 
         td.num {
             text-align: right;
@@ -170,5 +182,14 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus animi laboriosam hic rem, inventore quidem atque saepe at obcaecati iusto accusantium odio repudiandae harum? Est amet iusto nulla nisi voluptas?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti rem architecto assumenda, amet laboriosam beatae. Alias harum fuga aperiam provident qui reprehenderit dolorum nisi consectetur id, minima voluptate quaerat non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nesciunt quas dolore, unde et nulla maxime doloremque iusto culpa aliquam excepturi nam iure voluptate, eos, eius error quidem sint voluptas!
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus animi laboriosam hic rem, inventore quidem atque saepe at obcaecati iusto accusantium odio repudiandae harum? Est amet iusto nulla nisi voluptas?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti rem architecto assumenda, amet laboriosam beatae. Alias harum fuga aperiam provident qui reprehenderit dolorum nisi consectetur id, minima voluptate quaerat non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nesciunt quas dolore, unde et nulla maxime doloremque iusto culpa aliquam excepturi nam iure voluptate, eos, eius error quidem sint voluptas!
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus animi laboriosam hic rem, inventore quidem atque saepe at obcaecati iusto accusantium odio repudiandae harum? Est amet iusto nulla nisi voluptas?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti rem architecto assumenda, amet laboriosam beatae. Alias harum fuga aperiam provident qui reprehenderit dolorum nisi consectetur id, minima voluptate quaerat non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nesciunt quas dolore, unde et nulla maxime doloremque iusto culpa aliquam excepturi nam iure voluptate, eos, eius error quidem sint voluptas!
+    </p>
 </body>
 </html>
